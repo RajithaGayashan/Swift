@@ -1,0 +1,14 @@
+let name = "Rajitha Gayashan"
+
+switch name {
+case "Avishka":
+    print("Avishka")
+case "Heshan":
+    print("Heshan")
+
+case let x where x.hasSuffix("Gayashan"):
+    print("Rajitha Gayashan")
+
+default:
+    print("Default")
+}
